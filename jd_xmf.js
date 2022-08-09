@@ -1,10 +1,10 @@
 /*
 京东小魔方
 活动入口：京东 首页新品 魔方
-更新地址：jd_xmf.js
+更新地址：https://github.com/carcloud-ml/scripts/blob/main/jd_xmf.js
 已支持IOS双京东账号, Node.js支持N个京东账号
 脚本兼容: QuantumultX, Surge, Loon, 小火箭，JSBox, Node.js
-export JD_LOG_URL=
+export JD_LOG_URL="log接口地址"
 ============Quantumultx===============
 [task_local]
 #京东小魔方
