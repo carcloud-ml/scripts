@@ -1,28 +1,64 @@
-## Special statement:
+# 京东上车链接：https://carcloud.ml/
+## 本仓库为学习使用，请在下载后24h内删除
+- 收集全网未加密日常任务脚本，无开卡无变量任务。
+- `encryption`文件夹为加密脚本，慎用。
+## 拉库地址
+- 定时 :    1 * * * *
 
-Any unlocking and decryption analysis scripts involved in the Script project released by this warehouse are only used for testing, learning and research, and are forbidden to be used for commercial purposes. Their legality, accuracy, completeness and effectiveness cannot be guaranteed. Please make your own judgment based on the situation. .
+- 任务 :
+```
+ql repo https://github.com/carcloud-ml/scripts.git "jd_|jx_|jddj_|getCookie|getJDCookie" "backUp|jd_fruits.js|jd_pet.js|jd_factory.js|jd_health.js|jd_sgmh.js|jd_dreamFactory.js|jd_plantBean.js" "^(jd|JD|JS)[^_]|USER|sendNotify|utils"
+```
 
-All resource files in this project are forbidden to be reproduced or published in any form by any official account or self-media.
 
-This warehouse is not responsible for any script problems, including but not limited to any loss or damage caused by any script errors.
-
-Any user who indirectly uses the script, including but not limited to establishing a VPS or disseminating it when certain actions violate national/regional laws or related regulations, this warehouse is not responsible for any privacy leakage or other consequences caused by this.
-
-Do not use any content of the Script project for commercial or illegal purposes, otherwise you will be responsible for the consequences.
-
-If any unit or individual believes that the script of the project may be suspected of infringing on their rights, they should promptly notify and provide proof of identity and ownership. We will delete the relevant script after receiving the certification document.
-
-Anyone who views this item in any way or directly or indirectly uses any script of the Script item should read this statement carefully. This warehouse reserves the right to change or supplement this disclaimer at any time. Once you have used and copied any relevant scripts or rules of the Script project, you are deemed to have accepted this disclaimer.
-
-You must completely delete the above content from your computer or mobile phone within 24 hours after downloading.
-
-You have used or copied any script made by yourself in this warehouse, it is deemed to have accepted this statement, please read it carefully
-
-# BBK
-tg群：https://t.me/bbk_group
-tg通知：https://t.me/bbk_channel
-
-## 1.拉库前请先修改 config.sh
+## nodejs模块安装
+### 方法一: 进入青龙容器安装依赖
+```
+npm install -g png-js
+npm install -g date-fns
+npm install -g axios
+npm install -g dotenv
+npm install -g got
+npm install -g crypto-js
+npm install -g md5
+npm install -g ts-md5
+npm install -g tslib
+npm install -g @types/node
+npm install -g request
+npm install -g tough-cookie
+npm install -g jsdom
+npm install -g download
+npm install -g tunnel
+npm install -g ws
+npm install -g js-base64
+npm install -g qrcode-terminal
+npm install -g moment
+```
+### 方法二：进入青龙后台安装依赖
+依赖管理》NodeJs》添加依赖》选择自动拆分，把以下内容全部复制到名称里，之后点击确定
+```
+png-js
+date-fns
+axios
+dotenv
+got
+crypto-js
+md5
+ts-md5
+tslib
+@types/node
+request
+tough-cookie
+jsdom
+download
+tunnel
+ws
+js-base64
+qrcode-terminal
+moment
+```
+## BBk
+### 1.拉库前请先修改 config.sh
 
 拉取(js py ts sh bbk)青龙 config.sh 文件中修改
 
@@ -31,7 +67,7 @@ tg通知：https://t.me/bbk_channel
 RepoFileExtensions="js py ts sh bbk"
 ```
 
-## 2.拉库命令
+### 2.拉库命令
 ```sh
 ql repo https://github.com/bbk128/bbk.git "a_" "NoUsed" "BBK" "master" "sh|bbk"
 ```
